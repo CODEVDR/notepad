@@ -59,7 +59,7 @@ document.getElementById("open").onclick = () => {
 document.getElementById("close").onclick = () => {
   let val = confirm("Do You Want To Close File??");
   if (val) {
-    document.title = `Untitled - Notepad`;
+    document.title = "Untitled - Notepad";
     document.getElementById("notepad").innerHTML = null;
   }
 };
